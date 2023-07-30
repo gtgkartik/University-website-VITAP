@@ -1,8 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import courseImg1 from "../../assests/images/web-design.png";
-import courseImg2 from "../../assests/images/graphics-design.png";
-import courseImg3 from "../../assests/images/ui-ux.png";
 import image1 from '../../images/image3.jpg'
 import image2 from '../../images/image4.jpg'
 

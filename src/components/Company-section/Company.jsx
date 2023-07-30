@@ -1,7 +1,7 @@
 import React from "react";
 import './company-section.css'
 import { Container, Row, Col } from "reactstrap";
-import { BsApple, BsMicrosoft, BsMeta } from "react-icons/bs"; 
+import { BsMicrosoft, BsMeta } from "react-icons/bs"; 
 import { SiTesla, SiAirbnb } from "react-icons/si";
 
 const Company = () => {

@@ -3,7 +3,6 @@ import "./testimonial.css";
 import { Container, Row, Col } from "reactstrap";
 import Slider from "react-slick";
 
-import img from "../../assests/images/testimonial01.png";
 
 const Testimonials = () => {
   const settings = {

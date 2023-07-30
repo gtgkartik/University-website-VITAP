@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assests/images/about-us.png";
 import CountUp from "react-countup";
 import "./about.css";
 import image from '../../images/image2.jpg'

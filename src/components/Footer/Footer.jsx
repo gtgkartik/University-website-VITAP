@@ -52,7 +52,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-            <img src={logo} width={200}/>
+            <img src={logo} width={200} alt= "logo"/>
             </h2>
 
             <div className="follows">
