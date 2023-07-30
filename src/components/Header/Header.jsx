@@ -1,27 +1,40 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
+import logo from '../../images/logo.png'
 
 const navLinks = [
   {
-    display: "Home",
+    display: "Admissions",
+    url: "#",
+  },
+  {
+    display: "Academics",
+    url: "#",
+  },
+
+  {
+    display: "Career Development",
+    url: "#",
+  },
+  {
+    display: "Facilities",
+    url: "#",
+  },
+  {
+    display: "Campus",
+    url: "#",
+  },
+  {
+    display: "Research",
     url: "#",
   },
   {
     display: "About",
     url: "#",
   },
-
   {
-    display: "Courses",
-    url: "#",
-  },
-  {
-    display: "Pages",
-    url: "#",
-  },
-  {
-    display: "Blog",
+    display: "VIT-AP Advantage",
     url: "#",
   },
 ];
@@ -35,10 +48,8 @@ const Header = () => {
     <header className="header">
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
-          <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
-            </h2>
+          <div className="logo flex ">
+            <img src={logo} width={200}/>
           </div>
 
           <div className="nav d-flex align-items-center gap-5">
@@ -51,12 +62,12 @@ const Header = () => {
                 ))}
               </ul>
             </div>
-
+{/* 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
                 <i class="ri-phone-line"></i> +88 0123456789
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="mobile__menu">

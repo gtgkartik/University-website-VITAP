@@ -14,10 +14,30 @@
 
 .search {
   width: 60%;
-  border: 1px solid #17bf9d44;
+  border: 2px solid #650010;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 50px;
   margin-top: 20px;
+  
+}
+
+
+/* custom.css */
+input[type="text"] {
+  background-color: transparent;
+  border-radius: 4px; /* Add your desired border radius */
+  padding-left: 30px; /* Add your desired padding */
+  outline: none; /* Remove the default outline when the input is focused */
+}
+
+/* Optional: Add additional styles for when the input is focused */
+input[type="text"]:focus {
+  border-color: #007bff; /* Add your desired focus border color */
+  /* Add other styles for when the input is focused */
+}
+
+.custom-shadow {
+  box-shadow: 0 150px 300px rgba(0, 0, 0, 0.1), 0 20px 40px rgba(0, 0, 0, 0.06);
 }

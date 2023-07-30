@@ -3,35 +3,38 @@ import { Container, Row, Col } from "reactstrap";
 import courseImg1 from "../../assests/images/web-design.png";
 import courseImg2 from "../../assests/images/graphics-design.png";
 import courseImg3 from "../../assests/images/ui-ux.png";
+import image1 from '../../images/image3.jpg'
+import image2 from '../../images/image4.jpg'
+
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
 const coursesData = [
   {
     id: "01",
-    title: "Web Design BootCamp-2022 for Beginners",
-    lesson: 12,
+    title: "BTECH CSE, CSBS, ECE",
+    lesson: 70,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg1,
+    imgUrl: image1,
   },
 
   {
     id: "02",
-    title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
-    lesson: 12,
+    title: "BBA, B.Com",
+    lesson: 30,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg2,
+    imgUrl: image2,
   },
 
   {
     id: "03",
-    title: "UI/UX BootCamp for Beginners in 2022",
-    lesson: 12,
+    title: "MA, MA, B.S.c",
+    lesson: 35,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg3,
+    imgUrl: "https://vitap.ac.in/wp-content/uploads/2020/07/B.Tech-Mechanical-1.jpg",
   },
 ];
 
@@ -45,9 +48,7 @@ const Courses = () => {
               <div className="course__top__left w-50">
                 <h2>Our Popular Courses</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  consequatur libero quod voluptatibus ullam quia quas, vitae
-                  voluptatem recusandae reprehenderit!
+                VIT-AP offers distinctive education through its Undergraduate, Postgraduate and Ph.D Programmes. The teaching-learning process at the institute prepares  students for the future.
                 </p>
               </div>
 

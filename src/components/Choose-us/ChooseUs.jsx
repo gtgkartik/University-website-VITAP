@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-
+import image from '../../images/image5.jpg'
 import chooseImg from "../../assests/images/why-choose-us.png";
 import "./choose-us.css";
 
@@ -16,13 +16,7 @@ const ChooseUs = () => {
             <div className="choose__content">
               <h2>Why Choose Us</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+              With a history of 37 years of innovation in educational and research domain, VIT  has been a forerunner in delivering quality education. Consistently ranked among the top educational institutes in the country, the VIT group of institutions have had a proud tradition of pursuing knowledge and excellence. In keeping with this tradition,  the leadership at VIT-AP resonates a dynamic blend of academic initiative and industry partnership with a vision of creating one of the finest academic destinations in the world.  The VIT-AP campus, which is poised to become one of the country’s best campuses, offers several avenues to explore your interests, identify core competencies, and engage in an evolving lifecycle of education and growth. It is a place where
               </p>
             </div>
           </Col>
@@ -31,13 +25,13 @@ const ChooseUs = () => {
             <div className="choose__img">
               {showVideo ? (
                 <ReactPlayer
-                  url="https://www.youtube.com/watch?v=qFp27TR4Yew"
+                  url="https://www.youtube.com/watch?v=a2B5l6C2Xr8"
                   controls
                   width="100%"
                   height="350px"
                 />
               ) : (
-                <img src={chooseImg} alt="" className="w-100" />
+                <img src={image} alt="" className="w-100" />
               )}
 
               {!showVideo && (

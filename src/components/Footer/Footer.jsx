@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
+import logo from '../../images/logo.png'
 import "./footer.css";
 
 const footerQuickLinks = [
@@ -52,7 +52,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+            <img src={logo} width={200}/>
             </h2>
 
             <div className="follows">
@@ -114,9 +114,9 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Address: VITAP University, Amaravathi</p>
+            <p> Phone: +91 8919111043 </p>
+            <p>Email: admissions@vitap.ac.in</p>
           </Col>
         </Row>
       </Container>

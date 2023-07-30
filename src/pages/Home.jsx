@@ -17,6 +17,7 @@ import Footer from "../components/Footer/Footer";
 const Home = () => {
   return (
     <Fragment>
+ 
       <Header />
       <HeroSection />
       <CompanySection />
@@ -24,7 +25,6 @@ const Home = () => {
       <Courses />
       <ChooseUs />
       <Features />
-      <FreeCourse />
       <Testimonials />
       <Newsletter />
       <Footer />
